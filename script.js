@@ -13,4 +13,11 @@ function getComputerChoice() {
   return randomNumber;
 }
 
-console.log(getComputerChoice());
+function getHumanChoice() {
+  const humanChoice = window.prompt(
+    "Enter your choice (rock, paper or scissors):",
+  );
+  return humanChoice;
+}
+
+console.log(getHumanChoice());
