@@ -105,9 +105,11 @@ function playGame() {
   playRound(humanSelection, computerSelection);
 
   if (humanScore > computerScore) {
-    console.log("Congratulation! You won the game");
-  } else if (humanScore > computerScore) {
-    console.log("Congratulation! You won the game");
+    console.log("Congratulation! You won the game.");
+  } else if (humanScore < computerScore) {
+    console.log("Sadly, you lose the game.");
+  } else {
+    console.log("Its tie.");
   }
 }
 
